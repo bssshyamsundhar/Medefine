@@ -58,7 +58,15 @@ To get started, follow these steps:
 
 5. **Access the app: Open a browser and go to http://127.0.0.1:5000 to start using the Medical Dictionary app.**
 
+## Future Improvemetnts:
 
+- Voice-Activated Search and Accessibility Features
+- Images and Video Responses for the searched terms.
+- dvanced Search Filters and Categories.
+- User Accounts and Personalization.
+- Interactive Quizzes and Learning Modules.
+- Medical News and Updates Section.
+  
 ## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request. All contributions are welcome!
 
