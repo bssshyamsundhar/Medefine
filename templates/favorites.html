@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="favorites-container">
+    <h2>Your Favorite Terms</h2>
+    <div class="favorites-list">
+        {% if favorites %}
+            <ul>
+                {% for term in favorites %}
+                    <li class="favorite-item">
+                        <a href="{{ url_for('result', term=term) }}" class="favorite-link">
+                            <i class="fas fa-bookmark"></i> {{ term }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p class="no-favorites">You don't have any favorite terms yet. Start adding some!</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

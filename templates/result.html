@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="result-container">
+    <h2>Definition for "{{ term }}"</h2>
+    <p class="definition">{{ definition }}</p>
+
+    <div class="additional-info">
+        {% if formatted_pronunciations %}
+        <div class="pronunciation">
+            <h3>Pronunciation</h3>
+            <p>{{ formatted_pronunciations }}</p>
+            {% for url in audio_urls %}
+            <div class="audio-player">
+                <audio controls>
+                    <source src="{{ url }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if related_terms %}
+        <div class="related-words">
+            <h3>Related Terms</h3>
+            <ul class="related-terms-list">
+                {% for term in related_terms[:6] %}
+                <li class="related-term-item">
+                    <a href="{{ url_for('result', term=term) }}" class="related-term-link">
+                        <i class="fas fa-arrow-right"></i> {{ term }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </div>
+
+    <a href="{{ url_for('add_favorite', term=term) }}" class="favorite-btn">
+        <i class="fas fa-heart"></i> Add to Favorites
+    </a>
+</div>
+{% endblock %}
