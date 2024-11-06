@@ -1,6 +1,6 @@
-# Medical Dictionary Web App
+# Medefine
 
-The **Medical Dictionary** web application is a comprehensive and interactive tool designed to help users quickly search for and understand medical terms. With an intuitive search function, users can find definitions, view related terms, and manage a favorites list for easy reference. This project is built with Flask and includes a simple and clean user interface.
+The **Medefine** web application is a comprehensive and interactive tool designed to help users quickly search for and understand medical terms. With an intuitive search function, users can find definitions, view related terms, and manage a favorites list for easy reference. This project is built with Flask and includes a simple and clean user interface.
 
 ## Features
 
