@@ -20,7 +20,7 @@ The **Medefine** web application is a comprehensive and interactive tool designe
 
 ## API Documentation
 
--For Merraim-Webster api doumentation ,refer https://www.dictionaryapi.com/products/json.
+- For Merraim-Webster api doumentation ,refer **https://www.dictionaryapi.com/products/json.**
 
 ## Screenshots
 
