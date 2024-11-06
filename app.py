@@ -3,9 +3,8 @@ import requests
 from common_terms import CLICKABLE_TERMS
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Needed for session management
+app.secret_key = 'Secret'  # Needed for session management
 
-# Replace this with your actual API key from Merriam-Webster
 API_KEY = 'c7ee0d40-808a-439c-80cc-ffb99781afaa'
 API_URL = 'https://dictionaryapi.com/api/v3/references/medical/json/'
 
@@ -50,10 +49,7 @@ def index():
     return render_template('index.html')
 
 
-def debug(data):
-    # Extract sim_list, rel_list, and syn_list
-
-    print(type(data))  # This will print the type of 'data'
+def get_related_terms(data):
 
 # Check if 'data' is a list
     if isinstance(data, list):
@@ -95,7 +91,7 @@ def result():
         
         # Initialize empty values for display
         definition = "Definition not found. Try a different term."
-        synonyms = debug(datat)
+        synonyms = get_related_terms(datat)
         audio_urls = []
         formatted_pronunciations = ""
 
