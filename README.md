@@ -12,10 +12,8 @@ The **Medical Dictionary** web application is a comprehensive and interactive to
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, and [Font Awesome](https://fontawesome.com/) for icons.
+- **Frontend**: HTML, CSS . 
 - **Backend**: Python and Flask for server-side functionality.
-- **Database**: SQL or in-memory storage (as per implementation needs).
-- **CSS Framework**: Custom CSS for styling and responsive design.
 
 ## Screenshots
 
@@ -23,12 +21,11 @@ The **Medical Dictionary** web application is a comprehensive and interactive to
 ![Home Page Screenshot](screenshots/home_page.png)
 
 ### Search Functionality
-![Search Page Screenshot](screenshots/search_page.png)
+![Result Page Screenshot](screenshots/result_page.png)
 
 ### Favorites Page
 ![Favorites Page Screenshot](screenshots/favorites_page.png)
 
-> _Add screenshots to the `screenshots` folder in your project directory for these references to work._
 
 ## Installation and Running the App
 
@@ -36,7 +33,7 @@ To get started, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/medical-dictionary.git
+   git clone https://github.com/bssshyamsundhar/Medefine.git
    cd medical-dictionary
    Set up a virtual environment (optional but recommended):
 2. **Set up a virtual environment (optional but recommended)**:
