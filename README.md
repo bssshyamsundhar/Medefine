@@ -18,6 +18,9 @@ The **Medefine** web application is a comprehensive and interactive tool designe
 - **Frontend**: HTML, CSS . 
 - **Backend**: Flask,Python,Merriam-Webster API
 
+## API Documentation
+
+-For Merraim-Webster api doumentation ,refer https://www.dictionaryapi.com/products/json.
 
 ## Screenshots
 
