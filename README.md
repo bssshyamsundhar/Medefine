@@ -1,6 +1,8 @@
 # Medefine
 
-The **Medefine** web application is a comprehensive and interactive tool designed to help users quickly search for and understand medical terms. With an intuitive search function, users can find definitions, view related terms, and manage a favorites list for easy reference. This project is built with Flask and includes a simple and clean user interface.
+The **Medefine** web application is a comprehensive and interactive tool designed to help users quickly search for and understand medical terms. With an intuitive search function, users can find definitions, view related terms, pronunciations with audio,  and manage a favorites list for easy reference. This project uses the Merriam-Webster API to fetch more than 60000 medical terms and their definitions and is built with Flask and includes a simple and clean user interface.
+
+
 
 ## Features
 
@@ -10,10 +12,12 @@ The **Medefine** web application is a comprehensive and interactive tool designe
 - **Interactive Design**: Responsive search input with icons, making it easy to navigate.
 - **Comprehensive Dictionary**: Contains a large number of medical terms and definitions for user reference.
 
+
 ## Technologies Used
 
 - **Frontend**: HTML, CSS . 
-- **Backend**: Python and Flask for server-side functionality.
+- **Backend**: Flask,Python,Merriam-Webster API
+
 
 ## Screenshots
 
@@ -34,22 +38,27 @@ To get started, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/bssshyamsundhar/Medefine.git
-   cd medical-dictionary
-   Set up a virtual environment (optional but recommended):
+   cd Medefine
+
 2. **Set up a virtual environment (optional but recommended)**:
    ```bash
     python3 -m venv venv
     source venv\Scripts\activate # On Linux, use `venv/bin/activate`
+
 3. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
+
 4. **Run the app**:
    ```bash
    py -m app.py
+
 5. **Access the app: Open a browser and go to http://127.0.0.1:5000 to start using the Medical Dictionary app.**
+
 
 ## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request. All contributions are welcome!
+
 
 ## License
 This project is open-source and available under the MIT License.
