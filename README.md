@@ -25,7 +25,7 @@ The **Medefine** web application is a comprehensive and interactive tool designe
 ![Home Page Screenshot](https://github.com/bssshyamsundhar/Medefine/blob/main/static/screenshots/home_page.png)
 
 ### Search Functionality
-![Result Page Screenshot](https://github.com/bssshyamsundhar/Medefine/blob/main/static/screenshots/reult_page.png)
+![Result Page Screenshot](https://github.com/bssshyamsundhar/Medefine/blob/main/static/screenshots/result_page.png)
 
 ### Favorites Page
 ![Favorites Page Screenshot](https://github.com/bssshyamsundhar/Medefine/blob/main/static/screenshots/favorites_page.png)
