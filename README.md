@@ -8,8 +8,8 @@ The **Medefine** web application is a comprehensive and interactive tool designe
 
 - **Search Functionality**: Type any medical term to get a quick, clear definition.
 - **Favorites Management**: Save frequently used terms to a favorites list for easy access.
-- **User-Friendly Interface**: Simple, clean design for ease of use.
 - **Interactive Design**: Responsive search input with icons, making it easy to navigate.
+- **Term Pronunciation**:Users can hear the correct pronunciation, making it easier for them to understand and remember the terms.
 - **Comprehensive Dictionary**: Contains a large number of medical terms and definitions for user reference.
 
 
@@ -22,13 +22,13 @@ The **Medefine** web application is a comprehensive and interactive tool designe
 ## Screenshots
 
 ### Home Page
-![Home Page Screenshot](screenshots/home_page.png)
+![Home Page Screenshot](https://github.com/bssshyamsundhar/Medefine/blob/master/screenshots/home_page.png)
 
 ### Search Functionality
-![Result Page Screenshot](screenshots/result_page.png)
+![Result Page Screenshot](https://github.com/bssshyamsundhar/Medefine/blob/master/screenshots/result_page.png)
 
 ### Favorites Page
-![Favorites Page Screenshot](screenshots/favorites_page.png)
+![Favorites Page Screenshot](https://github.com/bssshyamsundhar/Medefine/blob/master/screenshots/favorites_page.png)
 
 
 ## Installation and Running the App
